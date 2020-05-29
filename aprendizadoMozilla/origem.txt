@@ -1,0 +1,14 @@
+https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/com_que_seu_site_vai_parecer
+
+
+
+
+
+* Instalando os programas básicos
+* Com será o seu site?
+* Lidando com arquivos
+* HTML básico
+* CSS básico
+* Javascript básico
+* Publicando seu website
+* Como a web funciona
