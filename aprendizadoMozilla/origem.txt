@@ -12,3 +12,20 @@ https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/c
 * Javascript básico
 * Publicando seu website
 * Como a web funciona
+
+
+
+
+
+imagem
+https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=pt_BR
+
+link
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+
+css
+font-family: 'Roboto Slab', serif;
+
+
+acessibilidade
+https://developer.mozilla.org/pt-BR/docs/Web/Acessibilidade
