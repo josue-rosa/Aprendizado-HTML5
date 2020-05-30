@@ -26,5 +26,13 @@ img{
     margin: 0 auto;
 
 }
+button{
+    display: block;
+    position: absolute;
+    padding: 5px;
+    top: 800px;
+    left: 875px;
+    
+}
 
 /*     */
