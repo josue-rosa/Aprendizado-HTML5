@@ -1,31 +1,19 @@
-document.getElementById('btn-submit').addEventListener('click', e  => {
-    console.log('O botão foi clicado')
-} )
+let tabuada = document.querySelector('#tabuada')
 
-document.getElementById('form-login').addEventListener('mouseenter', e =>{
-    console.log('O mouse entrou no formulario')
-})
+let valorA = 5
 
-document.querySelector('#form-login').addEventListener('mouseleave', e =>{
-    console.log('O mouse saiu do formulario')
-})
+let resultado = valorA * valorB
 
-document.querySelector('#form-login').addEventListener('submit', e=>{
-    e.preventDefault()
+for(valorB = 0; valorB <= 10; valorB++){
     
-    let email = document.querySelector('#email').value
-    let password = document.querySelector('#password').value
-
-    let json = {
-        email,
-        password
-    }
-    if (!json.email){
-        console.error('Campo email deve ser preenchido')
-    }else if (!json.password){
-        console.error('O campo password deve ser preenchido')
-    }else{
-        console.info('Dados validados com sucesso!')
-    }
-})
-
+    let template = `
+        <tr> 
+            <td>${valorA}</td>
+            <td>x</td>
+            <td>${valorB}</td>
+            <td>=</td>
+            <td>${resultado}</td>
+            
+        </tr>
+        `
+}
