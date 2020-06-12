@@ -1,19 +1,22 @@
-let tabuada = document.querySelector('#tabuada')
+let tabuada = document.querySelector('#tabuada tbody')
 
-let valorA = 5
+let valorA = 2
 
-let resultado = valorA * valorB
+tabuada.innerHTML = ''
 
 for(valorB = 0; valorB <= 10; valorB++){
     
+    let resultado = valorA * valorB
+    
     let template = `
-        <tr> 
             <td>${valorA}</td>
             <td>x</td>
             <td>${valorB}</td>
             <td>=</td>
             <td>${resultado}</td>
-            
-        </tr>
         `
+    let tr = document.createElement('tr')
+    tr.innerHTML = template
+
+    tabuada.append(tr)
 }
