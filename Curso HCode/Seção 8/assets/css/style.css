@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 500px;
+    background-image: url('../imagens/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    
+}
+header .bg-gradiente{
+    min-height: 300px;
+    width: 100%;
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+header .header-border{
+    display: flex;
+    border-bottom: rgba(255,255,255,.25) 1px solid
+}
+
+header #logo{
+    width: 200px;
+    color: #FFF;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: #000 1px 1px 8px;
+}
+
+header #menu{
+    flex: 1;
+    
+}
+header #menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+header #menu li{
+    min-width: 100px;
+    line-height: 38px;
+}
+
+header #menu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#register{
+    background-color: #FFF;
+    width: 100%;
+    height: 400px;
+    max-width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    box-shadow: 0 0 2.185rem rgba(140,152,164,.125);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+#register p{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+#register .field{
+    width: 100%;
+    margin-bottom: 20px;
+}
